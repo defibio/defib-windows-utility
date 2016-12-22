@@ -13,7 +13,6 @@ namespace DefibWindowsUtility
         {
             if (args.Length < 1)
             {
-                // Lay down the law
                 Console.WriteLine("You failed to specify a command, please use `defib help` for usage instructions.");
                 return;
             }
