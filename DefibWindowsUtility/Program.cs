@@ -40,8 +40,6 @@ namespace DefibWindowsUtility
             string[] arguments = argumentList.ToArray();
 
             CommandDelegator.Delegate(command, arguments);
-
-            Console.ReadLine();
         }
 
         private static void OnHelpHandler(object sender, OnHelpCommandEventArgs arguments)
